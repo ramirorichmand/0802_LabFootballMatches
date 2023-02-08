@@ -40,7 +40,7 @@ CREATE TABLE football;
 5) Find the teams which include the word "City" in their name. 
 
 ```sql
-<!-- SELECT hometeam FROM matches WHERE hometeam LIKE '%City%' UNION SELECT awayteam FROM matches WHERE awayteam ILIKE '%City%'; -->
+<!-- SELECT * FROM matches WHERE hometeam LIKE '%City%' OR awayteam LIKE '%City%'; -->
 
 
 ```
