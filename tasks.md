@@ -24,7 +24,7 @@ CREATE TABLE football;
 3) What are the names of the Scottish divisions included?
 
 ```sql
-<!-- --SELECT name FROM divisions WHERE country = 'Scotland'; -->
+<!-- --SELECT * FROM divisions WHERE country = 'Scotland'; -->
 
 
 ```
