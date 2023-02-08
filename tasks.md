@@ -48,8 +48,7 @@ CREATE TABLE football;
 6) How many different teams have played in matches recorded in a French division?
 
 ```sql
-<!-- SELECT COUNT(*) FROM (SELECT hometeam FROM matches WHERE division_code IN (SELECT code FROM divisions WHERE country = 'France') UNION SELECT awayteam FROM matches WHERE division_code IN (SELECT code FROM divisions WHERE country = 'France')) AS french_teams;
- -->
+<!-- SELECT COUNT (*) FROM matches WHERE division_code = 'F1' or division_code = 'F2'; -->
 
 
 ```
