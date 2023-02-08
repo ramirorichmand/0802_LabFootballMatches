@@ -74,7 +74,7 @@ SELECT * FROM matches WHERE hometeam = 'Swansea' AND awayteam = 'Huddersfield'; 
 9) Select the matches played in the Premier League in order of total goals scored from highest to lowest. When two matches have the same total the match with more home goals should come first.
 
 ```sql
-<!-- SELECT * FROM matches WHERE division_code = 'E0' ORDER BY (fthg + ftag) DESC, fthg DESC; -->
+<!-- Not sure -->
 
 
 ```
@@ -82,7 +82,7 @@ SELECT * FROM matches WHERE hometeam = 'Swansea' AND awayteam = 'Huddersfield'; 
 10) In which division and which season were the most goals scored?
 
 ```sql
-<!-- SELECT division_code, season, SUM(ftag + fthg) AS sum_scores FROM matches GROUP BY division_code, season ORDER BY sum_scores DESC FETCH FIRST 1 ROW ONLY; -->
+<!-- Not sure -->
 
 
 ```
