@@ -57,7 +57,8 @@ CREATE TABLE football;
 7) Have Huddersfield played Swansea in any of the recorded matches?
 
 ```sql
-<!-- SELECT COUNT(*) FROM matches WHERE hometeam = 'Huddersfield' AND awayteam = 'Swansea' OR hometeam = 'Swansea' AND awayteam = 'Huddersfield'; -->
+<!-- SELECT * FROM matches WHERE hometeam = 'Huddersfield' AND awayteam = 'Swansea';
+SELECT * FROM matches WHERE hometeam = 'Swansea' AND awayteam = 'Huddersfield'; -->
 
 
 ```
