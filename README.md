@@ -1,6 +1,23 @@
-# 0802_LabFootballMatches
+# 08/02 Lab Football Matches
 
-# Football Matches - Tasks
+# Criteria 
+
+In this task you will practice writing SQL queries to extract information from a database. In this example we have provided an SQL file which will add details of some football matches played in various countries over the past few years, plus the divisions they were played in. There are two tables:
+
+- **Divisions** lists the reference code for each division, its name and the country it is played in.
+- **Matches** lists the division code, home and away team names, home and away goals, result (**H**ome or **A**way win, or **D**raw) and the season in which the match was played.
+
+The database contains only league matches. In league football every team plays every other team both home and away, meaning there will be at least two entries per season for each combination of teams in the league. For example, The matches between Arsenal and Tottenham in 2021 are listed as:
+
+| id   | division_code | hometeam  | awayteam  | fthg | ftag | ftr | season |
+|------|---------------|-----------|-----------|------|------|-----|--------|
+| 1023 | E0            | Tottenham | Arsenal   | 2    | 0    | H   | 2021   |
+| 1202 | E0            | Arsenal   | Tottenham | 2    | 1    | H   | 2021   |
+
+In order to determine if a team has played in a given division in a given season it is only necessary to query **either** `hometeam` or `awayteam`. Similarly, to check if two teams have played each other it is only necessary to query for one of the `hometeam`/`awayteam` permutations.
+---
+
+# Tasks
 
 Each of the questions/tasks below answered using `SELECT` query. 
 
