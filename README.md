@@ -1,4 +1,4 @@
-# 08/02 Lab Football Matches
+# 08/02 Lab Football Matches SQL
 
 # Criteria 
 
